@@ -11,8 +11,8 @@ The script takes two arguments :
   1. the log file path
   2. the output folder path where all processes info will be saved
 
-The format for the memory log is the output of 'top -b'. Such log can be obtained by running commands like 'top -b >> memory_usage.log'
-The output will be a bunch of csv files. One csv for each process observed during the logging session. On each csv, you'll have the memory and processor consumption of the process for each log time.
+The format for the memory log is the output of `top -b`. Such log can be obtained by running commands like `top -b >> memory_usage.log`
+The output will be a CSV files with all the logging data well organized and a bunch of graphs. One graph for each resource observed during the logging session.
 
 
 __Example :__
